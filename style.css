@@ -133,26 +133,59 @@ h1 {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 900px;
+    width: 800px;
 }
 
 .quote2 {
     display: flex;
-    align-self: flex-end;
-    width: 900px;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .newsletter-sector {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 150px;
 }
 
 .product-signup {
     display: flex;
-    flex-direction: column;
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 12px;
+    color: #e5e7eb;
+    gap: 100px;
 }
 
 .signup-button#product {
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 2px solid #e5e7eb
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
 }
